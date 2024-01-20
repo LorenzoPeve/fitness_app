@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+    #welcome_title {
+        font-family: 'Bebas Neue', sans-serif;
+        color: #333;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+    }
+
+    h1 {
+        font-size: 4em;
+        margin-bottom: -50px;
+    }
+
+    .welcome_message {
+        font-family: 'Oswald', sans-serif;
+        font-size: 21px;
+        text-align: center;
+    }
+</style>
+{% endblock head %}
+{% block content %}
+<!-- Title -->
+<h1 id="welcome_title">Fitness Logging Made Easier</h1>
+<p class="welcome_message">
+    Log your exercises, weights, and reps effortlessly with our modern fitness tracking app.
+</p>
+<p class="welcome_message">
+    Start your fitness journey today!
+</p>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<!-- Cards -->
+<div class="container mt-5">
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-6 mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><b>What is Fitness Tracker?</b></h5>
+                    <p class="card-text">
+                    Your fitness data at your fingertips. Crafted by fitness
+                    enthusiasts for fitness enthusiasts, our app combines the best
+                    features found in other tracking apps with a minimalist and easy-to-use interface.    
+                    <br><br>
+                    <b><i>Say goodbye to your old-school workout journal.</i></b>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Simple yet Powerful</b></h5>
+                    <p class="card-text">
+                    A workout log should be quick and easy to use without getting in your way or slowing you down.  
+                    <br><br>
+                    <b><i>Other workout apps take a simple thing and overcomplicate it.</i></b>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card 3 Title</h5>
+                    <p class="card-text">Some text for Card 3.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-shield-lock mr-2"></i></i><b>Data Privacy</b></h5>
+                    <p class="card-text">
+                        At Fitness Tracker, we prioritize your data privacy and security.
+                        We believe in transparency and want to assure you that you own your data.
+                        <br><br>
+                        <b><i>You have the right to control your data. You have the right to be forgotten.</i></b>
+                        <br><br>
+                        Whenever you wish, you can easily export your data from our
+                        platform. You can request the removal of your data from our systems.
+                        <br><br>
+                        Our support team is here to assist you in the process, ensuring that your data is deleted in accordance with privacy regulations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
